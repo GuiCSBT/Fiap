@@ -28,7 +28,7 @@ Analisar arquivos PCAP utilizando o Wireshark para identificar evidências de co
 
 ---
 
-# 📂 Arquivos analisados
+# 📂 Arquivos analisados com evidências
 
 - The_Miner_6.pcap
 - The_Miner_13.cap
