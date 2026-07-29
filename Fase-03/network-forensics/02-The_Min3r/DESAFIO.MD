@@ -1,29 +1,38 @@
-# Desafio
+# 📌 Desafio
 
-## Plataforma
+## 🧪 Nome do Laboratório        **The Miner**
 
-FIAP - Pós Tech Defesa Cibernética
+---
 
-## Módulo
+# 🎯 Objetivo
 
-Fase 03 - Network Forensics
+Neste laboratório foram disponibilizados diversos arquivos de captura de rede (**PCAP**) para análise utilizando o **Wireshark**.
 
-## Nome do Laboratório
+O objetivo foi identificar evidências presentes no tráfego de rede e responder às questões propostas durante a atividade.
 
-The Miner
+### Flags solicitadas
 
-## Objetivo
+- 🌐 Identificar a **URL** relacionada à comunicação observada durante a investigação.
+- 🔑 Identificar a **senha** utilizada durante uma autenticação **FTP** capturada em texto claro.
 
-Neste laboratório foram disponibilizados diversos arquivos de captura de rede (PCAP) para análise utilizando o Wireshark.
+---
 
-O objetivo foi identificar evidências presentes no tráfego de rede e responder às questões propostas pela atividade.
+## 🛠️ Técnicas utilizadas
 
-As flags solicitadas consistiam em:
+Durante a investigação foram utilizadas as seguintes técnicas e recursos do Wireshark:
 
-1. Identificar a URL relacionada à comunicação observada durante a investigação.
+- Análise de tráfego **HTTP**
+- Análise de tráfego **FTP**
+- Análise de tráfego **UDP**
+- Utilização de **Display Filters**
+- Busca por evidências (**Find Packet**)
+- Reconstrução de fluxos com **Follow TCP Stream**
+- Reconstrução de fluxos com **Follow UDP Stream**
 
-2. Identificar a senha utilizada durante uma autenticação FTP capturada em texto claro.
+---
 
-Durante a análise foram utilizadas técnicas de investigação em protocolos HTTP, FTP e UDP, além das funcionalidades de busca e reconstrução de fluxos (Follow TCP Stream e Follow UDP Stream) do Wireshark.
+## ⚠️ Observação
 
-> **Observação:** As respostas (flags) não são publicadas neste repositório para preservar o caráter educacional do laboratório. O foco desta documentação é demonstrar a metodologia de investigação utilizada.
+> Este repositório **não divulga as respostas (flags)** do laboratório.
+>
+> O objetivo desta documentação é demonstrar a **metodologia de investigação**, o raciocínio analítico e as técnicas utilizadas durante a análise forense da captura de rede.
